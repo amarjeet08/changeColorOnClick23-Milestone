@@ -11,9 +11,9 @@
     <script>
         const colors = ["red", "blue","green", "yellow","purple","pink"]
         document.getElementById("color-button").addEventListener("click", function(){
-            //Generate a random index from the colors array
+          
             const randomIndex = Math.floor(Math.random() * colors.length);
-            // set the background color of the page to the randomly chosen color
+      
             document.body.style.backgroundColor = colors[randomIndex];
         });
     </script>
